@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>service</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url(bg.avif);
+        }
+        
+        h1 {
+            text-align: center;
+            color: black;
+        }
+        
+        .social a {
+            font-size: 30px;
+            color: #212121;
+            margin-right: 20px;
+        }
+        
+        .social {
+            margin-left: 8%;
+            margin-top: 100px;
+        }
+        
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .social-icons .icon {
+            margin: 0 10px;
+            font-size: 24px;
+            color: #007bff;
+        }
+        
+        .social-icons .icon:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="menu">
+        <li><img src="logo_1.png" alt="Navbar Logo"></li>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="dropdown">
+            <a href="#services">Services</a>
+            <div class="dropdown-content">
+                <a href="#service1.html"> Shewer Service </a>
+                <a href="#service2.html"> water supply Service </a>
+                <a href="#service3.html"> Electricity Service </a>
+            </div>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <nav class="navbar navbar-light bg-light">
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+
+    </nav>
+    <h1>Your Personal details</h1>
+    <hr>
+    <br>
+    <form method='post' class="regfom" action=''>
+
+        <div class="form-group">
+            <h2><label for="fname">Enter your Name:</label>
+                <input type="text" class="form-control" name="fname" id="fname" required="required" maxlength="20"></h2>
+        </div>
+        <div class="form-group">
+            <h2><label for="email">Email address:</label>
+                <input type="email" class="form-control" name="email" id="email" required="required" maxlength="20"></h2>
+        </div>
+        <div class="form-group">
+            <h2> <label for="myfile">Upload your image</label>
+                <input type="file" id="profileimage" name="profileimage"></h2>
+        </div>
+        <div class="form-group">
+            <h2><button type="submit" name="btnsignup" class="btn btn-primary"><h2>Submit</h2></button></h2>
+
+        </div>
+    </form>
+    <div class="social ">
+        <h2>contact details:
+            <br><a href="tel:+919891214793"><i class="fab fa-whatsapp  "></i> 98991214793 
+                <a href="https://wa.me/919467366720"><i class="fab fa-whatsapp "></i> 9467366720</h2>
+       <br> <a href="# "><i class="fab fa-instagram "><a href="https://www.instagram.com/mukesh001_____/">instagram</a></i>
+            </a>
+            <a href="# "><i class="fab fa-facebook "><a href="https://www.facebook.com/profile.php?id=100022571480325">facebook</a></a>
+            </i>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
